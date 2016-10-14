@@ -18,5 +18,14 @@
   },
   "bin": {
     "mem-cli": "bin/mem-cli"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fandypeng/mem-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fandypeng/mem-cli/issues"
+  },
+  "homepage": "https://github.com/fandypeng/mem-cli",
+  "_id": "mem-cli@0.0.1"
 }
