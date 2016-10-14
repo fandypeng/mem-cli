@@ -1,0 +1,22 @@
+{
+  "name": "mem-cli",
+  "version": "0.0.1",
+  "description": "memcache shell client powered by node.js",
+  "keywords": [
+    "memcache",
+    "shell",
+    "node.js"
+  ],
+  "author": {
+    "name": "Fandy Peng",
+    "email": "fandypeng@163.com"
+  },
+  "main": "index",
+  "dependencies": {
+    "argv" : "0.0.2",
+    "memcache" : "0.3.0"
+  },
+  "bin": {
+    "mem-cli": "bin/mem-cli"
+  }
+}

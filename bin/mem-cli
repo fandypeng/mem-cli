@@ -1,0 +1,7 @@
+#! /usr/bin/env node
+
+var MemcacheClient = require('..');
+
+MemCli = new MemcacheClient();
+
+MemCli.start();
