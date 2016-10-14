@@ -7,25 +7,30 @@
     "shell",
     "node.js"
   ],
-  "author": {
-    "name": "Fandy Peng",
-    "email": "fandypeng@163.com"
-  },
+  "author": "Fandy Peng <fandypeng@163.com>",
   "main": "index",
   "dependencies": {
-    "argv" : "0.0.2",
-    "memcache" : "0.3.0"
+    "argv": "0.0.2",
+    "memcache": "0.3.0"
   },
   "bin": {
     "mem-cli": "bin/mem-cli"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/fandypeng/mem-cli.git"
+    "url": "git+https://github.com/fandypeng/mem-cli.git"
   },
   "bugs": {
     "url": "https://github.com/fandypeng/mem-cli/issues"
   },
   "homepage": "https://github.com/fandypeng/mem-cli",
-  "_id": "mem-cli@0.0.1"
+  "directories": {
+    "doc": "doc",
+    "test": "tests"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "ISC"
 }
