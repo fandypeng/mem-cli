@@ -1,6 +1,6 @@
 {
   "name": "mem-cli",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "memcache shell client powered by node.js",
   "keywords": [
     "memcache",
