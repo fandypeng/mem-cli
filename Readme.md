@@ -65,7 +65,8 @@ STORED
 
 ## License
 
-```(The MIT License)
+```js
+(The MIT License)
 
 Copyright (c) 2016 Fandy Peng &lt;fandypeng@163.com&gt;
 
