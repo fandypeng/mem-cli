@@ -20,36 +20,63 @@
 
   Small set of features so far:
 
-  - get
-  - set
-  - keys
+- get
+- set
+- keys
+- stats
 
 ### Built-ins
 
   Currently the following built-ins are available:
 
-  - `keys *` -- show all memcache keys
+- `keys *` -- show all memcache keys
+- `stats items` -- show all memcache items
 
 ### Sourcing
 
   You may source files much like you do with `require()` in node,
   support you have "test.js", you may load it with either of
   the following:
-
-```
-▸ . test.js
-▸ . test
-```
-
-## Debugging
-
 ```js
+var MemcacheClient = require('./lib/client');
 
+MemCli = new MemcacheClient();
+
+MemCli.start();
 ```
-
-Usage:
+test the demo
 
 ```shell
+▸ test.js
+memcache 192.168.1.73:12001 >
+```
+
+### Usage
+
+need help.
+
+```shell
+$ mem-cli --help
+```
+
+connect to a remote memcached server.
+
+```shell
+$ mem-cli -h [remote host] -p [port]
+```
+
+get mem-cli version.
+
+```shell
+$ mem-cli -v
+0.0x
+```
+
+memcache client usage
+
+```shell
+$  mem-cli -h 192.168.1.73 -p 12002
+memcache 192.168.1.73:12002 >
 ▸ get key
 "value"
 ▸ set key new_value
@@ -60,6 +87,8 @@ STORED
 "key2"
 "key3"
 "key4"
+▸ stats
+...
 ```
 
 
